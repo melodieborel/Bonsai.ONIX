@@ -8,7 +8,7 @@
     {
         public ONIManagedFrame(oni.Frame frame)
         {
-            Sample = frame.Data<T>();
+            Sample = frame.GetData<T>();
             FrameClock = frame.Clock;
             DeviceAddress = frame.DeviceAddress;
         }

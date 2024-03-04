@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Title>Bonsai - ONIX Design Library</Title>
+    <Title>Bonsai - ONIX Design Library (MB)</Title>
     <Description>Bonsai design library for Bonsai.ONIX.</Description>
     <PackageTags>Bonsai Rx Open Ephys ONI Neural Interface ONIX Electrophysiology Miniscope</PackageTags>
     <TargetFramework>net472</TargetFramework>
@@ -13,12 +13,14 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Platforms>AnyCPU;x64</Platforms>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+	<Product>Bonsai.ONIXMB.Design</Product>
+	<PackageId>Bonsai.ONIXMB.Design</PackageId>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageIcon>onix_open_ephys_logo.png</PackageIcon>
     <AssemblyVersion>1.2.0.0</AssemblyVersion>
     <FileVersion></FileVersion>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/open-ephys/Bonsai.ONIX</RepositoryUrl>
+    <RepositoryUrl>https://github.com/melodieborel/Bonsai.ONIX</RepositoryUrl>
 	 <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
